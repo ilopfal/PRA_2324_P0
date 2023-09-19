@@ -1,9 +1,9 @@
 #include<iostream>
 #include "BrazoRobotico.h"
-#include "BrazoRobotico.cpp"
+
 
 int main(){
-	BrazoRobotico Brazo;
+	BrazoRobotico Brazo(0.0,0.0,0.0,false);
 	Brazo.mover(10.0,20.0,5.0);
 	Brazo.coger();
 	return 0;

@@ -1,3 +1,6 @@
+#ifndef BRAZOROBOTICO_H
+#define BRAZOROBOTICO_H
+
 class BrazoRobotico {
 private:
     double x;
@@ -14,5 +17,6 @@ public:
     void coger();
     void soltar();
     void mover(double x_nueva, double y_nueva, double z_nueva);
-}
-;
+};
+
+#endif
